@@ -2,7 +2,7 @@
 This project uses machine learning to classify and analyze network traffic data. It helps in identifying different types of traffic (e.g., benign or malicious) and detecting anomalies using algorithms such as Random Forest and Isolation Forest.
 As network threats continue to grow in complexity, automated approaches to traffic classification and anomaly detection are becoming essential. This project demonstrates how supervised and unsupervised machine learning algorithms — including Random Forest and Isolation Forest — can be applied to network traffic logs to detect potential attacks like DoS, Port Scanning, or unknown anomalies.
 
-Features
+**Features**
 Upload and process CSV-based network traffic datasets
 
 Data preprocessing: drop irrelevant columns, handle missing values, normalize features
@@ -17,7 +17,7 @@ Display classification reports and sample anomaly detection output
 
 Fully implemented in Python and compatible with Jupyter or Google Colab
 
- Getting Started
+ **Getting Started**
 1. Clone the Repository
 bash
 Copy
@@ -39,19 +39,19 @@ Numerical features
 
 A Label column (e.g., Benign, DoS, etc.)
 
-How It Works
-Upload CSV
+**How It Works**
+**1.Upload CSV**
 File is loaded using pandas.read_csv() and previewed.
 
-Preprocessing
+**2.Preprocessing**
 Drops IPs, timestamps, and other non-numeric fields. Scales data using StandardScaler.
 
-Model Training
+**3.Model Training**
 Trains a Random Forest classifier on 80% of the data, tests on 20%.
 
-Anomaly Detection
+**4.Anomaly Detection**
 Trains an Isolation Forest on benign traffic, flags anomalies in test data.
 
-Model Optimization
+**5.Model Optimization**
 Uses Grid Search to find the best hyperparameters for the classifier.
 
