@@ -1,0 +1,11 @@
+✅ --- Traffic Classification Report ---
+              precision    recall  f1-score   support
+Benign            0.95       0.93      0.94       120
+DoS               0.91       0.94      0.92        45
+PortScan          0.88       0.87      0.88        35
+
+🔍 --- Sample Anomaly Detection Output ---
+  Actual     Predicted
+0 Benign     Normal
+1 DoS        Anomaly
+...
