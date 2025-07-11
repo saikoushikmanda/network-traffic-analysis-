@@ -19,15 +19,7 @@ Fully implemented in Python and compatible with Jupyter or Google Colab
 
  **Getting Started**
 1. Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/network-traffic-ml.git
-cd network-traffic-ml
 2. Install Dependencies
-bash
-Copy
-Edit
 pip install pandas scikit-learn
 3. Run the Notebook
 Open 1-network traffic.ipynb using Jupyter or upload it to Google Colab.
