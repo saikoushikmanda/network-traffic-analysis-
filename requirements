@@ -1,0 +1,10 @@
+Python 3.x
+
+Jupyter Notebook / Google Colab
+
+pandas
+
+scikit-learn (RandomForestClassifier, IsolationForest, GridSearchCV)
+
+matplotlib / seaborn (optional for visualization)
+
